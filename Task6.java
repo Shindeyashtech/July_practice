@@ -9,16 +9,18 @@
 class NumberPrint{
     public int i;
    public  int forLoop(){
-        for ( i = 0; i < 50; i++) {
+        for ( i = 1; i <= 50; i++) {
             System.out.println(i);
         }
         return i;
     }
     public int WhileLoop(){
+        i=1;
         while (i<=50) {
             if (i%2==0) {
                 System.out.println(i);
             }
+            i++;
         }
      return i; 
     }
