@@ -1,4 +1,4 @@
-public class AmstrngNum {
+   public class AmstrngNum {
  public static void main(String[] args) {
   
     
