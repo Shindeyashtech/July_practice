@@ -10,10 +10,11 @@ import java.util.Scanner;
 // Focus: methods, method overloading, reusability.
 class MathOps{
      public int Add(int a,int b){
+      System.out.println(a+b);
         return 0;
      }
      public int Add(double  a,double  b){
-        return 0;
+         return 0;
      }
      public int Add(int a,int b,int c){
         return 0;
@@ -28,11 +29,15 @@ public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
 System.out.println("Enter Number1");
-int
+int x=sc.nextInt();
+System.out.println("Enter Number2");
+int y =sc.nextInt();
+System.out.println("Enter Number3");
+int z=sc.nextInt();
 
-      m1.Add(a, b);
-    m1.Add(a, b);
-    m1.Add(a, b, c);
+      m1.Add(x, y);
+    m1.Add(x, y);
+    m1.Add(x, y, z);
 
 }
     
