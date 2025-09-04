@@ -14,9 +14,13 @@ class MathOps{
         return 0;
      }
      public int Add(double  a,double  b){
+              System.out.println(a+b);
+
          return 0;
      }
      public int Add(int a,int b,int c){
+              System.out.println(a+b+c);
+
         return 0;
      }
  
@@ -38,6 +42,7 @@ int z=sc.nextInt();
       m1.Add(x, y);
     m1.Add(x, y);
     m1.Add(x, y, z);
+    
 
 }
     
