@@ -22,5 +22,21 @@ public class Task10 {
               }
               System.out.println(" ");
           }      
+         for (int i = 0; i < num.length; i++) {
+            int rowSum = 0;
+              for (int j = 0; j < num.length; j++) {
+                rowSum+=num[i][j];
+               }
+               System.out.println(rowSum);
+           }     
+         for (int j = 0; j < num.length; j++) {
+          int colSum=0;
+              for (  int i = 0; i < num.length; i++) {
+                colSum+=num[i][j];
+               }
+               System.out.println(colSum);    
+
+           }  
     }
+    
 }
