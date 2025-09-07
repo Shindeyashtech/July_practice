@@ -21,8 +21,9 @@ public class StudentGrade {
 System.out.print("Enter No Student " );
         int stud = 0;
         stud=sc.nextInt();
-        int student[][]=new int[stud][3];
+        int student[][]=new  int[stud][3];
         
+
 
 
         for (int i = 0; i < student.length; i++) {

@@ -6,7 +6,7 @@
 // Diagonal sum
 // Focus: nested loops, multidimensional arrays.
 public class Task10 {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int num[][]= new int[3][3];  
          
 
