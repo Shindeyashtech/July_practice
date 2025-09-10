@@ -11,6 +11,7 @@ class Practies{
                 System.out.println(a*b);
                 System.out.println(a/b);
                 System.out.println(a%b);
+                 
                 int c =10;
                 System.out.println(20<<2);
                 System.out.println(20>>2);
