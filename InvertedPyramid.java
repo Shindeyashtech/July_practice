@@ -7,6 +7,8 @@ public class InvertedPyramid {
                 System.out.print(" ");
             }
             for (int j = i; j < 5; j++) {
+
+                
                 System.out.print("* ");
             }
             System.out.println();
