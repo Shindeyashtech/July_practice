@@ -20,8 +20,11 @@ public class AryObj{
          s3.mark=44;
 
          Student stud[]=new Student[5];
+     stud[0]=s1;
+     stud[1]=s2;
+     stud[2]=s3;
          for (int i = 0; i <stud.length; i++) {
-            
+            System.out.Println(stud[i]);
              
          }
     }
