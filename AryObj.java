@@ -27,5 +27,6 @@ public class AryObj{
             System.out.Println(stud[i]);
              
          }
+     
     }
 }
