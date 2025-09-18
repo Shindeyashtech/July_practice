@@ -23,11 +23,14 @@ public class AryObj{
          stud[0]=s1;
          stud[1]=s2;
          stud[2]=s3;
-         for (int i = 0; i <stud.length; i++) {
-            System.out.println(stud[i].name+" "+stud[i].mark );
-
-              
-         }
+        //  for (int i = 0; i <stud.length; i++) {
+            
+        
+        //  }
+        for(Student n:stud){
+            //     System.out.println(stud[i].name+" "+stud[i].mark );
+            System.out.println(n.name+" "+n.mark);
+        }
      
     }
 }
