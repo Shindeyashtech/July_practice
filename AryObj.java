@@ -18,10 +18,12 @@ public class AryObj{
          Student s3=new Student();
          s3.name="yash";
          s3.mark=44;
-
-         Student stud[]=new Student[5];
+         Student stud[]=new Student[3];
+         stud[0]=s1;
+         stud[1]=s2;
+         stud[2]=s3;
          for (int i = 0; i <stud.length; i++) {
-            
+            System.out.println(stud[i].name+" "+stud[i].mark );
              
          }
     }
